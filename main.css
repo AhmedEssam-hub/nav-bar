@@ -1,0 +1,29 @@
+html, body{
+    background-color: darkkhaki;
+}
+
+.container > div{
+    color: red;
+    text-align: center;
+    padding: 5px;
+}
+
+.container > div:nth-child(1), .container > div:nth-child(3) {
+    background-color: green;
+}
+
+.container > div:nth-child(2), .container > div:nth-child(4) {
+    background-color: goldenrod;
+}
+
+.search-input{
+    background: transparent;
+    border: 0;
+    outline: 0; /*when clicked doesn't make a rectangle around the textbox*/
+    border-bottom: 1px solid red;
+    width: 100%;
+}
+
+::placeholder{
+    color: red;
+}

@@ -1,0 +1,9 @@
+.container{
+    border: 4px ridge red;
+    display:flex;
+    flex-wrap: wrap;
+}
+
+.Home, .Profile, .search, .Log_out{
+    flex: 1;
+}
